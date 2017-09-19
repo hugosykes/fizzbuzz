@@ -1,4 +1,4 @@
-require './fizzbuzz'
+require 'fizzbuzz'
 describe 'Fizzbuzz' do
   [1,2,4,7,8,11,13,14,16,17,19,22,23,26].each do |a|
     it "checks #{a}" do
